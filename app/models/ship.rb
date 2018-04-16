@@ -5,7 +5,6 @@ class Ship
   @@all = []
 
   def initialize(params) # Pass in ship hash and assign attributes to the ship.
-    binding.pry
     @name = params[:name]
     @type = params[:type]
     @booty = params[:booty]
