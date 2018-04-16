@@ -7,8 +7,6 @@ class Ship
   def initialize(name)
     #binding.pry
     @name = name
-    @weight = weight
-    @height = height
     @@all << self
   end
 
