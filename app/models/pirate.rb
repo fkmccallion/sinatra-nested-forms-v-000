@@ -4,8 +4,7 @@ class Pirate
 
   @@all = []
 
-  def initialize(params)
-    binding.pry
+  def initialize(params) # Pass in pirate hash arguement and create attributes.  Will not use ship info.
     @name = params[:name]
     @weight =params[:weight]
     @height = params[:height]
