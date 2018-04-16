@@ -1,6 +1,6 @@
 class Ship
 
-  attr_accessor :name, :weight, :height
+  attr_accessor :name
 
   @@all = []
 
