@@ -6,7 +6,7 @@ class Pirate
 
   def initialize(name, weight, height)
     #binding.pry
-    name = name
+    @name = name
     @weight = weight
     @height = height
     @@all << self
