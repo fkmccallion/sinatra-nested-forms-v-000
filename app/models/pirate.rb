@@ -5,6 +5,7 @@ class Pirate
   @@all = []
 
   def initialize(name, weight, height)
+    binding.pry
     @name = name
     @weight = weight
     @height = height
