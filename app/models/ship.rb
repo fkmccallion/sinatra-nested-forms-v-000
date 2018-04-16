@@ -5,7 +5,6 @@ class Ship
   @@all = []
 
   def initialize(name)
-    #binding.pry
     @name = name
     @@all << self
   end
