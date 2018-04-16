@@ -4,7 +4,7 @@ class Ship
 
   @@all = []
 
-  def initialize(name, weight, height)
+  def initialize(name)
     #binding.pry
     @name = name
     @weight = weight
